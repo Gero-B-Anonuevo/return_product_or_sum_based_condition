@@ -2,8 +2,8 @@
 
 #pseudocode
 #ask input
-#first_number = int(input("Input the first number: "))
-#second_number = int(input("Input your second number: "))
+first_number = int(input("Input the first number: "))
+second_number = int(input("Input your second number: "))
 #get product
 #if (first_number*second_number) <= 1000:
 #    print(first_number*second_number)
@@ -21,3 +21,6 @@ def multiplication_or_sum(num1, num2):
     else:
         # product is greater than 1000 calculate sum
         return num1 + num2
+
+result = multiplication_or_sum(first_number , second_number)
+print("The result is", result)
